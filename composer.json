@@ -1,17 +1,17 @@
 {
-    "name": "ardianferdianto/laravel-forum",
+    "name": "jasonbdaro/laravel-forum",
     "description": "A Laravel 5 package providing a solid foundation for building discussion forums",
     "keywords": ["laravel", "laravel-5", "forum", "discuss"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Ardian Ferdianto",
-            "email": "ardianferdianto@gmail.com"
+            "name": "Jason Daro",
+            "email": "jasonbdaro@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.1.0",
-        "illuminate/support": "~5.0|^6.0|^7.0|^8.0"
+        "illuminate/support": "~5.0|^6.0|^7.0|^8.0|^10.0"
     },
     "autoload": {
         "psr-4": {
@@ -19,6 +19,6 @@
         }
     },
     "suggest": {
-        "ardian/laravel-forum-frontend": "The standard forum frontend that provides views written with Bootstrap 4"
+        "jasonbdaro/laravel-forum-frontend": "The standard forum frontend that provides views written with Bootstrap 4"
     }
 }
